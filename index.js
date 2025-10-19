@@ -70,8 +70,7 @@ console.log(getRandomInt(1, 100));
  console.log(greet('Hello', 'Mary')) // Hello, Mary
 */
 
-let greetingMsg = 'hello';
-let greetingName = 'Bob';
-const fullGreeting = `${greetingMsg}, ${greetingName}`;
-
-console.log(fullGreeting);
+function greetByName(msg, name) {
+  return `${msg}, ${name}`;
+}
+console.log(greetByName('Hi', 'Bob'));
